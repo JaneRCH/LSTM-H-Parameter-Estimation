@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Index data: rebuilt by data/download_data.py, not redistributed
+data/*.csv
+data/*.xlsx
+
+# Working files and generated outputs (recreated by the scripts)
+results_v2/
+outputs/
+*.npz
+*.npy
